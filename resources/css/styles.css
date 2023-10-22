@@ -1,0 +1,41 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+html {
+    font-family: 'Kanit', sans-serif;
+    font-size: 16px;
+}
+
+/* Header */
+header {
+    display: flex;
+    width: 100%;
+    background-color: rgb(228, 60, 54);
+    min-height: 7rem;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: auto;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    margin-right: 2.8rem;
+    text-shadow: 2px 2px 4px rgba(42, 41, 40, 0.5);
+}
