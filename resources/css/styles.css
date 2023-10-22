@@ -92,3 +92,20 @@ nav a {
     max-height: 100%;
 }
 
+/* Testimonials */
+.testimonial {
+    width: 100%;
+    margin: 4rem 0;
+    padding: 4rem 0 8rem 1rem;
+    font-size: 1.5rem;
+    color: rgb(247, 241, 228);
+    background-color: rgb(42, 41, 40);
+    text-shadow: 2px 2px 4px rgba(105, 104, 103, 0.5);
+}
+
+.testimonial p {
+    font-size: medium;
+    padding-top: .8rem;
+}
+
+
