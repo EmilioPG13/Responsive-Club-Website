@@ -12,15 +12,15 @@ html {
     font-size: 16px;
 }
 
-/* Header */
-header {
+/* Header and Footer */
+header, footer {
     display: flex;
     width: 100%;
     background-color: rgb(228, 60, 54);
     min-height: 7rem;
 }
 
-header nav {
+header nav, footer nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -40,6 +40,7 @@ nav a {
     margin-right: 2.8rem;
     text-shadow: 2px 2px 4px rgba(42, 41, 40, 0.5);
 }
+
 
 /* Introduction */
 .intro {
@@ -136,6 +137,8 @@ nav a {
     margin: 0; /* Remove default margin */
 }
 
-.meetup h1 {
-    margin-bottom: 0.5rem; /* Add space between the first h1 and h2 */
+.meetup h2 {
+    margin-bottom: 3rem;
 }
+
+
