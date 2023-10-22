@@ -7,6 +7,7 @@
 
 /* Global styles */
 html {
+    background-color: rgb(247, 241, 228);
     font-family: 'Kanit', sans-serif;
     font-size: 16px;
 }
@@ -39,3 +40,55 @@ nav a {
     margin-right: 2.8rem;
     text-shadow: 2px 2px 4px rgba(42, 41, 40, 0.5);
 }
+
+/* Introduction */
+.intro {
+    display: flex;
+    min-height: 25rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    color: rgb(247, 241, 228);
+    background-color: rgb(42, 41, 40);
+    text-shadow: 2px 2px 4px rgba(105, 104, 103, 0.5);
+    width: 100%;
+    padding: 1.5rem;
+}
+
+.summary {
+    margin: 1rem;
+    padding-bottom: 4em;
+}
+.summary p{
+    padding-top: .8rem; /* Adjust this value as needed to control the space between paragraphs */
+}
+
+.summary a {
+    text-decoration: none;
+    color: rgb(227, 59, 53);
+    cursor: pointer;
+}
+
+.photo-containter {
+    display: flex;
+    justify-content: center;
+}
+
+.photos {
+    display: flex;
+    max-width: 30rem;
+    gap: 4rem;
+    justify-content: center;
+}
+
+.photos img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
