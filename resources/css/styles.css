@@ -141,4 +141,66 @@ nav a {
     margin-bottom: 3rem;
 }
 
+/* Responsive */
+@media only screen and (max-width: 960px) {
+    header, footer {
+        flex-direction: column;
+    }
+
+    header nav, footer nav {
+        flex-direction: column;
+    }
+
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav a {
+        margin: 0;
+    }
+
+    .intro h1 {
+        font-size: 2rem;
+    }
+
+    .photos {
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    .intro h1 {
+        font-size: 1.5rem;
+    }
+
+    .photos img {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (min-width: 470px) {
+    .intro h1 {
+        font-size: 1.2rem;
+    }
+
+    .summary p {
+        padding-top: 0.5rem;
+    }
+
+    .testimonial p {
+        font-size: 1rem;
+    }
+    .photos {
+        gap: 1rem;
+    }
+}
+
+
+
+
+
+
 
